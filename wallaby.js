@@ -7,7 +7,6 @@ module.exports = function (wallaby) {
         new webpack.NormalModuleReplacementPlugin(/\.(gif|png|scss|css|jpg)$/, 'node-noop')
       ],
       externals: {
-        "react": "React",
         'react/addons': true,
         'jsdom': 'window',
         'cheerio': 'window',
